@@ -1,0 +1,8 @@
+Pipfile.lock
+__pycache__
+.git
+data
+results
+saves
+run_train.sh
+commands.txt

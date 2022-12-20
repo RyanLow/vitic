@@ -1,0 +1,30 @@
+# Directory paths
+data_path: "./data"
+save_path: "./saves"
+# model_path: null
+model_path: "./saves/STL10/999_995.1404395103455_final.tar" # Toggle to load a saved model
+results_path: "./results"
+
+# Data params
+dataset: "STL10" # "CIFAR10", "CIFAR100", "STL10"
+image_size: 128
+batch_size: 256
+num_workers: 2
+
+# VITIC params
+feature_dim: 128
+projector_dim: 1344
+
+# Training params
+seed: null
+# seed: 42
+epochs: 1000
+learning_rate: 0.001
+weight_decay: 0.
+instance_temp: 0.5
+cluster_temp: 1.0
+save_freq: 10
+
+# Eval params
+num_images: 10
+num_embeddings: 2500
